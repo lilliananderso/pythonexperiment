@@ -29,5 +29,24 @@ def age_limit_output(age):
     else:
         print(age, 'is old enough.')
         print('Minimum age is', age_limit)
+age_limit_output(70)
 
-age_limit_output(89)
+def report_grade (percent):
+    """Step 6a if-else"""
+    if percent>=80:
+        print("A grade of " + str(percent) + " indicates mastery. Keep up the good work!")
+    else:
+        print("A grade of " + str(percent) + " does not indicate mastery. Seek extra practice or help.")
+report_grade(99)
+
+print('t' in 'string')
+print('T' in 'string')
+print(3 in [1,2,3])
+print('3' in [1,2,3])
+
+def vowel(letter):
+    vowels = 'aeiouAEIOU'
+    if letter in vowels:
+        print(True)
+    else:
+        print(False)
