@@ -47,6 +47,7 @@ print('3' in [1,2,3])
 def vowel(letter):
     vowels = 'aeiouAEIOU'
     if letter in vowels:
-        print(True)
+        return True
     else:
-        print(False)
+        return False
+vowel(i)
