@@ -47,7 +47,21 @@ print('3' in [1,2,3])
 def vowel(letter):
     vowels = 'aeiouAEIOU'
     if letter in vowels:
-        return True
+        print('True')
     else:
-        return False
-vowel(i)
+        print('False')
+vowel('i')
+
+print('t' in 'secret hangman phrase')
+
+secret = ['red','red','yellow','yellow','black']
+    if hint('red', secret):
+        print('The color red IS in the secret sequence of colors.')
+    else:
+        print('fuck')
+    if hint('green', secret):
+        print('The color green IS NOT in the secret sequence of colors.')
+    else:
+        print('shid')
+
+hint
