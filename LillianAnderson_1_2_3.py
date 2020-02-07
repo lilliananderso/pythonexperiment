@@ -1,5 +1,7 @@
 # Lillian Anderson  1.3.3 iPython log
 
+print(Assignment 1.3.3A)
+
 a = 3
 
 print(a ** 2)
@@ -54,7 +56,7 @@ vowel('i')
 
 print('t' in 'secret hangman phrase')
 
-secret = ['red','red','yellow','yellow','black']
+"""secret = ['red','red','yellow','yellow','black']
     if hint('red', secret):
         print('The color red IS in the secret sequence of colors.')
     else:
@@ -64,4 +66,4 @@ secret = ['red','red','yellow','yellow','black']
     else:
         print('shid')
 
-hint
+hint"""
